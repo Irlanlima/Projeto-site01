@@ -9,12 +9,12 @@
 }
 /* variaves globais */
 :root{
-    --cor0: #c5c9eb;
-    --cor1: #8483e1;
-    --cor2: #3d5adc;
-    --cor3: #2f31a8;
-    --cor4: #1b1a5c;
-    --cor5: #050b5a;
+    --cor0: #c5e5eb;
+    --cor1: #83c6e1;
+    --cor2: #3daadc;
+    --cor3: #2f82a8;
+    --cor4: #1a495c;
+    --cor5: #032a3a;
 
     --fonte-padrao: Arial,Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue',cursive;
@@ -56,7 +56,7 @@ header{
 header > h1{
     text-align: center;
     color: white;
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrao);
     font-size: 1em;
     font-weight: normal;
     margin-bottom: 10px;
@@ -174,7 +174,7 @@ main img{
 }
 
 main img.pequena {
-    max-width: 250px;
+    max-width: 150px;
     /* centraliza imagens */
     display: block;
     margin: auto;
