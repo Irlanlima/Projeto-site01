@@ -34,13 +34,19 @@ a.externo::after{
 }
 
 
-body{
+body{ 
+
+    height: 100vh;
     background-color: var(--cor1);
     font-family: var(--fonte-padrao);
+    background: black url('imagens/fundo.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
+
 h1#principal{
     text-align: center;
 }
+
 p#principal{
     text-align: center;
 }
@@ -81,7 +87,13 @@ header > p{
 nav{
     background-color: var(--cor5);
     padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.459);   
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.459)
+    ;
+    min-width: 300px;
+    max-width: 850px;
+    margin: auto;
+    margin-bottom:  15px;
+    padding: 15px;
 }
 /* desgn do menu */
 nav > a {
@@ -104,7 +116,7 @@ nav > a:hover{
 /* texto  do site tenha uma boa visualização em qualquer tipo de tela. */
 main{
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 850px;
     margin: auto;
     margin-bottom:  30px;
     padding: 20px;
