@@ -9,10 +9,10 @@
 }
 /* variaves globais */
 :root{
-    --cor0: #c5e5eb;
-    --cor1: #83c6e1;
-    --cor2: #3daadc;
-    --cor3: #2f82a8;
+    --cor0: #b6e1e9;
+    --cor1: #78c3e0;
+    --cor2: #37a9dd;
+    --cor3: #2a84ad;
     --cor4: #1a495c;
     --cor5: #032a3a;
 
@@ -107,7 +107,7 @@ nav > a {
 }
 /* efeito quando passa o mause pelo menu */
 nav > a:hover{
-   background-color: var(--cor1);
+   background-color: var(--cor2);
    color: var(--cor5);
    
 }
